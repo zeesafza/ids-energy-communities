@@ -1,4 +1,4 @@
-# IDS-energy-communities
+# IDS-Energy-Communities
 Towards Privacy-Preserving Anomaly-Based Intrusion Detection in Energy Communities
 
 **How to use**
