@@ -12,30 +12,24 @@ from sklearn.metrics import precision_score, recall_score, f1_score, confusion_m
 normal = pd.read_csv("data/normal/features_dae.csv")
 
 # List of Attack Datasets
-#
-#LOAD DECREASE
-#attack= pd.read_csv('data/attack/LA/features_attack_LOADI-0.1.csv')
-#LOAD INCREASE
-#attack= pd.read_csv("data/attack/LA/features_attack_LOADI-5.csv")
-
-   
+  
 attack_files = {
-    "PA x2": "data/attack/GA/features_attack_BATTERYI-2dae.csv",
-    #"PA x5": "data/attack/GA/features_attack_BATTERYI-5dae.csv",
-    #"PA x10": "data/attack/GA/features_attack_BATTERYI-10dae.csv",
+    "PA x2": "data/attack/attack/features_attack_BATTERYI-2dae.csv",
+    #"PA x5": "data/attack/attack/features_attack_BATTERYI-5dae.csv",
+    #"PA x10": "data/attack/attack/features_attack_BATTERYI-10dae.csv",
     
-    #"DoS": "data/attack/GA/features_attack_BATTERYI-0dae.csv",
+    #"DoS": "data/attack/attack/features_attack_BATTERYI-0dae.csv",
     
-    #"PI-1": "data/attack/GA/features_attack_BATTERYI-minus1dae.csv",
-    #"PI-2": "data/attack/GA/features_attack_BATTERYI-minus2dae.csv",
-    #"PI-5": "data/attack/GA/features_attack_BATTERYI-minus5dae.csv",
+    #"PI-1": "data/attack/attack/features_attack_BATTERYI-minus1dae.csv",
+    #"PI-2": "data/attack/attack/features_attack_BATTERYI-minus2dae.csv",
+    #"PI-5": "data/attack/attack/features_attack_BATTERYI-minus5dae.csv",
  
     
-    #"LR x0": "data/attack/LA/features_attack_LOADI-0.csv",
-    #"LR x0.5": "data/attack/LA/features_attack_LOADI-0.5.csv",
+    #"LR x0": "data/attack/attack/features_attack_LOADI-0.csv",
+    #"LR x0.5": "data/attack/attack/features_attack_LOADI-0.5.csv",
         
-    #"LI x2": "data/attack/LA/features_attack_LOADI-2.csv",
-    #"LI x5": "data/attack/LA/features_attack_LOADI-5.csv",
+    #"LI x2": "data/attack/attack/features_attack_LOADI-2.csv",
+    #"LI x5": "data/attack/attack/features_attack_LOADI-5.csv",
     
  
     
